@@ -1,0 +1,19 @@
+<div class="header-line fullspan"></div>
+<header class="site-header fullspan">
+
+  <div class="wrapper">
+
+    <h1><a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+
+    <nav class="main-nav">
+
+      {% for weight in (1..10) %}{% for p in site.pages %}{% if p.weight == weight %}
+        <a class="page-link {% if page.title == p.title %}current-menu-item{% endif %}" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+
+      {% endif %}{% endfor %}{% endfor %}
+
+    </nav>
+
+  </div>
+
+</header>

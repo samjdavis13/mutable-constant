@@ -1,0 +1,12 @@
+# Site settings
+title: Mutable Constant
+email: samjd1993@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  A site where I can conduct my three month writing experiment.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://mutableconstant.com" # the base hostname & protocol for your site
+twitter_username: samjdavis
+github_username:  samjdavis13
+
+# Build settings
+markdown: kramdown

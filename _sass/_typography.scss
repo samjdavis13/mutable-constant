@@ -1,0 +1,115 @@
+/* TYPOGRAPHY */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,800italic,400,700,300);
+
+html {
+	font-family: 'Open Sans';
+	color: $text-grey;
+}
+
+h1 {
+	font-weight: 800;
+	font-style: italic;
+	font-size: 48px;
+	line-height: 65px;
+	@media screen and (max-width: $small-breakpoint) {
+		font-size: 38px;
+	}
+	@media screen and (max-width: $xsmall-breakpoint) {
+		font-size: 30px;
+	}
+}
+
+h2 {
+	font-size: 28px;
+	line-height: 38px;
+	margin-bottom: 16px;
+}
+
+h3 {
+	
+	&.footer-heading {
+		font-weight: 800;
+		font-style: italic;
+		font-size: 24px;
+		line-height: 33px;
+		text-align: center;
+		padding-top: 19px;
+		a {
+			color: $text-grey;
+			&:hover {
+				color: lighten($text-grey, 10%);
+			}
+		}
+	}
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+a {
+	text-decoration: none;
+	color: $highlight-color;
+	&:hover {
+		color: lighten($highlight-color, 10%);
+	}
+}
+
+p {
+	font-size: 18px;
+	line-height: 32px;
+	margin-bottom: 16px;
+	&.footer-body {
+		font-style: italic;
+		font-size: 12px;
+		line-height: 21px;
+		text-align: center;
+		padding-bottom: 19px;
+	}
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: 700;
+}
+
+.main-nav {
+	a {
+		font-size: 18px;
+		color: $text-grey;
+
+		&:hover {
+			color: lighten($text-grey, 10%);
+		}
+
+		&.current-menu-item {
+			color: $highlight-color;
+			&:hover {
+				color: lighten($highlight-color, 10%);
+			}
+		}
+
+		@media screen and (max-width: $xsmall-breakpoint) {
+			font-size: 13px;
+		}
+	}
+}
+
+.post-meta {
+	font-style: italic;
+	font-size: 12px;
+	color: $date-grey;
+	line-height: 21px;
+}
