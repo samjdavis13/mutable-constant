@@ -107,6 +107,21 @@ svg g {
 	}
 }
 
+blockquote {
+	padding-left: 25px;
+	//padding: 20px 5px 5px 25px;
+	border-left: 5px solid $highlight-color;
+	//background: $light-grey;
+	color: lighten($text-grey, 30%);
+	p {
+		font-size: 20px;
+	}
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+
+
 /*==========================
 ---- STICKY FOOTER HACK ----
 ==========================*/
