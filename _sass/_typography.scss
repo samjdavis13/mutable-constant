@@ -85,6 +85,13 @@ strong {
 	font-weight: 700;
 }
 
+spoiler {
+	color: $highlight-color;
+	&:hover {
+		color: lighten($highlight-color,10%);
+	}
+}
+
 .main-nav {
 	a {
 		font-size: 18px;
