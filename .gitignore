@@ -2,3 +2,16 @@
 *.codekit
 
 _site
+_site/
+_site/*
+_site/2014/09/07/Gameboys-&-Dee-Esses.html
+
+_site/contact.html
+
+_site/css/screen.css
+
+_site/feed.xml
+
+_site/index.html
+
+_site/2014/09/01/the-experiment.html
