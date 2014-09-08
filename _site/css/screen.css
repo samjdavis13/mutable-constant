@@ -1,0 +1,248 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,800italic,400,700,300);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* VARIABLES */
+/* MIXINS */
+/* TYPOGRAPHY */
+html {
+  font-family: 'Open Sans';
+  color: #737373; }
+
+h1 {
+  font-weight: 800;
+  font-style: italic;
+  font-size: 48px;
+  line-height: 65px;
+  letter-spacing: -2.5px; }
+  @media screen and (max-width: 475px) {
+    h1 {
+      font-size: 38px; } }
+  @media screen and (max-width: 376px) {
+    h1 {
+      font-size: 30px; } }
+
+h2 {
+  font-size: 28px;
+  line-height: 38px;
+  margin-bottom: 16px; }
+
+h3.footer-heading {
+  font-weight: 800;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  padding-top: 19px;
+  letter-spacing: -1.5px; }
+  h3.footer-heading a {
+    color: #737373; }
+    h3.footer-heading a:hover {
+      color: #8d8d8d; }
+
+a {
+  text-decoration: none;
+  color: #2FBA93; }
+  a:hover {
+    color: #4bd1ac; }
+
+p {
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 16px; }
+  p.footer-body {
+    font-style: italic;
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+    padding-bottom: 19px; }
+
+em {
+  font-style: italic; }
+
+strong {
+  font-weight: 700; }
+
+spoiler {
+  color: #2FBA93; }
+  spoiler:hover {
+    color: #4bd1ac; }
+
+.main-nav a {
+  font-size: 18px;
+  color: #737373; }
+  .main-nav a:hover {
+    color: #8d8d8d; }
+  .main-nav a.current-menu-item {
+    color: #2FBA93; }
+    .main-nav a.current-menu-item:hover {
+      color: #4bd1ac; }
+  @media screen and (max-width: 376px) {
+    .main-nav a {
+      font-size: 13px; } }
+
+.post-meta {
+  font-style: italic;
+  font-size: 12px;
+  color: #BFBFBF;
+  line-height: 21px; }
+
+/* LAYOUT */
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+.fullspan {
+  width: 100%; }
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto; }
+  @media screen and (max-width: 1070px) {
+    .wrapper {
+      width: 90%; } }
+
+/*============
+--- HEADER ---
+============*/
+.header-line {
+  height: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: #737373; }
+
+header {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  border-bottom: 1px solid #e6e6e6; }
+  header h1 {
+    float: left;
+    padding: 35px 0; }
+    header h1 a {
+      color: #737373; }
+      header h1 a:hover {
+        color: #8d8d8d; }
+    @media screen and (max-width: 860px) {
+      header h1 {
+        float: none;
+        text-align: center;
+        padding: 20px 0 10px 0; } }
+  header nav {
+    padding: 60px 0;
+    text-align: right; }
+    header nav a {
+      text-transform: uppercase;
+      padding: 10px;
+      margin-left: 40px; }
+      header nav a:hover {
+        margin-left: 39px;
+        margin-right: -1px;
+        border-radius: 7px;
+        border: 1px solid #e8e8e8; }
+    header nav a:nth-child(1) {
+      margin-left: 0; }
+    @media screen and (max-width: 860px) {
+      header nav {
+        clear: both;
+        text-align: center;
+        padding: 20px 0 30px 0; } }
+
+/*============
+---- BODY ----
+============*/
+.page-content {
+  clear: both; }
+  .page-content article.blog-post,
+  .page-content article.page {
+    margin-top: 30px;
+    margin-bottom: 60px; }
+
+aside {
+  padding-bottom: 60px; }
+
+svg g:hover {
+  fill: #666666; }
+
+blockquote {
+  padding-left: 25px;
+  border-left: 5px solid #2FBA93;
+  color: silver;
+  margin-bottom: 30px;
+  margin-top: 30px; }
+  blockquote p {
+    font-size: 20px; }
+
+/*==========================
+---- STICKY FOOTER HACK ----
+==========================*/
+* {
+  margin: 0; }
+
+html, body {
+  height: 100%; }
+
+.global-wrap {
+  min-height: 100%;
+  height: auto !important;
+  /* This line and the next line are not necessary unless you need IE6 support */
+  height: 100%;
+  margin: 0 auto -93px;
+  /* the bottom margin is the negative value of the footer's height */ }
+
+.site-footer, .push {
+  height: 93px;
+  /* .push must be the same height as .footer */ }
+
+footer {
+  background: #F5F5F5; }
+  footer p {
+    margin: 0; }
