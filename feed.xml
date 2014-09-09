@@ -13,10 +13,9 @@ layout: null
 				<title>{{ post.title | xml_escape }}</title>
 				<description>{{ post.content | xml_escape }}</description>
 				<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-				<link>{{ site.url }}{{ post.url }}</link>
-				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+				<link>{{ site.url | xml_escape }}{{ post.url | xml_escape}}</link>
+				<guid isPermaLink="true">{{ site.url | xml_escape }}{{ post.url | xml_escape }}</guid>
 			</item>
 		{% endfor %}
 	</channel>
 </rss>
-<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
