@@ -124,6 +124,33 @@ blockquote {
 	margin-top: 30px;
 }
 
+img {
+	width: 100%;
+}
+
+span.alert {
+	position: relative;
+	display: block;
+	border: 3px solid $highlight-color;
+	border-radius: 10px;
+	text-align: center;
+	padding: 0 20px 20px 20px;
+	margin: 30px 0;
+}
+span.alert:before {
+	display: block;
+	z-index: 999;
+	position: relative;
+	content: "ALERT";
+	top: -15px;
+	margin: 0 auto;
+	padding: 0;
+	height: 25px;
+	line-height: 25px;
+	width: 100px;
+	background: white;
+}
+
 
 
 /*==========================
