@@ -3,6 +3,7 @@ layout: post
 title:  "Google Inbox"
 date:   2014-10-25
 ---
+
 So a few days ago now, [Google][1] unveiled a new email client named [Inbox][2], which shares the basic same idea as [MailBox][3] by Dropbox — that is, one that is focussed on triage and treating your email like a to do list. For me, personally, this is exactly how I like to approach email. I feel as though this is the only way to approach it without becoming enfuriated. 
 
 I am excited about this, as I generally like a lot of the things that Google ships. That being said, Inbox is currently invite only. I have access to it, and would like to share it with some of my reader, so I thought I would run a super simple competition. 
