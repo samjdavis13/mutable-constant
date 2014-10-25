@@ -13,6 +13,6 @@ That's it. Super simple. The first person to comment will be guaranteed an invit
 
 Good luck!
 
-[1]:	[http://google.com/]
-[2]:	[https://inbox.google.com/]
-[3]:	[http://www.mailboxapp.com/]
+[1]:	http://google.com/
+[2]:	https://inbox.google.com/
+[3]:	http://www.mailboxapp.com/
