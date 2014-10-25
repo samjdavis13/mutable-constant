@@ -9,10 +9,10 @@ As I generally like a lot of the things that Google ships, I am pretty excited a
 
 To enter: Leave a comment
 
-That's it. Super simple. The first person to comment will be guaranteed an invite. For every other submission I will wait until midday today Sydney time (Oct 25th, 2014), then I will close submissions and then randomly select 2 commenters to send invites to. 
+That's it. Super simple. The first person to comment will be guaranteed an invite. For every other submission I will wait until 5pm today Sydney time (Oct 25th, 2014), then I will close submissions and then randomly select 2 commenters to send invites to. 
 
 Good luck!
 
-[1]: [http://google.com]
-[2]: [https://inbox.google.com/]
-[3]: [http://www.mailboxapp.com]
+[1]:	[http://google.com/]
+[2]:	[https://inbox.google.com/]
+[3]:	[http://www.mailboxapp.com/]
