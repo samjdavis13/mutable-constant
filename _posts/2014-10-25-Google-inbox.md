@@ -14,7 +14,7 @@ Please note that at the time of writing I **do not** have any invites. As soon a
 </span>
 To enter: Leave a comment below
 
-That's it. Super simple. The first person to comment will be guaranteed an invite. For every other submission I will wait until 5pm today Sydney time (Oct 25th, 2014), then I will close submissions and then randomly select 2 commenters to send invites to. 
+That's it. Super simple. The first person to comment will be guaranteed an invite. For every other submission I will wait until 7pm today Sydney (AEDST) time (Oct 25th, 2014), then I will close submissions and then randomly select 2 commenters to send invites to. 
 
 Good luck!
 
