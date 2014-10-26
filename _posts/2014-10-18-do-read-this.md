@@ -9,7 +9,7 @@ I haven't finished reading it yet, but am slowly making my way through it, and s
 
 [http://arstechnica.com/apple/2014/10/os-x-10-10/][2]
 
-*EDIT:* I have now read the review in its entirety — My recommendation stands, fantastic review! Seriously, go read it!
+**EDIT:** I have now read the review in its entirety — My recommendation stands, fantastic review! Seriously, go read it!
 
 
 [1]:	http://twitter.com/siracusa
