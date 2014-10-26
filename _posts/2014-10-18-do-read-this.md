@@ -7,6 +7,8 @@ I love that there are people in the world who dedicate a *massive* chunk of time
 
 I haven't finished reading it yet, but am slowly making my way through it, and so far, I could not recommend it more highly! If you're a nerd like me, you will love this; stop reading this, and read that. 
 
+*EDIT:* I have now read the review in its entirety — My recommendation stands, fantastic review! Seriously, go read it!
+
 [http://arstechnica.com/apple/2014/10/os-x-10-10/][2]
 
 
