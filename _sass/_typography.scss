@@ -74,7 +74,7 @@ a {
 p {
 	font-size: 18px;
 	line-height: 32px;
-	margin-bottom: 16px;
+	margin-bottom: 25px;
 	&.footer-body {
 		font-style: italic;
 		font-size: 12px;
@@ -90,6 +90,17 @@ em {
 
 strong {
 	font-weight: 700;
+}
+
+ol {
+	@extend p;
+	list-style-type: decimal;
+	list-style-position: outside;
+	padding-left: 25px;
+}
+
+ol li {
+	padding-left: 5px;
 }
 
 spoiler {

@@ -125,7 +125,25 @@ blockquote {
 }
 
 img {
-	width: 100%;
+	max-width: 100%;
+}
+
+img.medium {
+	max-width: 50%;
+	float: left;
+	margin: 7px 30px 0 0;
+	@media screen and (max-width: $mobile-breakpoint) {
+		float: none;
+		max-width: 100%;
+		width: 100%;
+	}
+}
+
+img.small {
+	max-width: 25%;
+	@media screen and (max-width: $mobile-breakpoint) {
+		max-width: 100%;
+	}
 }
 
 span.alert {
@@ -150,7 +168,6 @@ span.alert:before {
 	width: 100px;
 	background: white;
 }
-
 
 
 /*==========================
